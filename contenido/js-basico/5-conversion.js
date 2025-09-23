@@ -31,18 +31,15 @@ console.log(typeof sumaConNumero)
 const valorString = '29'
 const valorNumber = 11
 const valorBoolean = true
-console.log(valorString + valorString)
-console.log(valorString + valorNumber)
-console.log(valorString + valorBoolean)
+console.log(valorString + valorString)//concatenar
+console.log(valorString + valorNumber)//concatenar
+console.log(valorString + valorBoolean)//concatenar
 
-console.log(valorNumber + valorNumber)
-console.log(valorNumber + valorString)
-console.log(valorNumber + valorBoolean)
+console.log(valorNumber + valorNumber)//sumar
+console.log(valorNumber + valorString)//concatenar
+console.log(valorNumber + valorBoolean)//sumar
 
-console.log(valorBoolean + valorBoolean)
-console.log(valorBoolean + valorString)
-console.log(valorBoolean + valorNumber)
-
-
-
+console.log(valorBoolean + valorBoolean)//sumar
+console.log(valorBoolean + valorString)//sumar
+console.log(valorBoolean + valorNumber)//concatenar
 

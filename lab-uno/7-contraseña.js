@@ -7,17 +7,16 @@
 const contrasena = "sdftghup8";
 
 function verificarContrasena() {
+    //Condicion para que la contraseña sea de mas de 8 caracteres
     if (contrasena.length <= 8) {
-        console.log("La contraseña no es segura");
-        return;
+        return "La contraseña no es segura: debe tener más de 8 caracteres.";
     }
-
+    //Verificar la contraseña
     for (let i = 0; i < contrasena.length; i++) {
-        if (contrasena[i] >= '0' && contrasena[i] <= '9') {
-            console.log("La contraseña es segura");
-            return;
+        if (!isNaN(parseInt(contrasena[i]))) {
+            return "La contraseña es segura.";
         }
     }
 
-    console.log("La contraseña no es segura");
+    return "La contraseña no es segura: debe contener al menos un número.";
 }

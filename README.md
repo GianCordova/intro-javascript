@@ -25,6 +25,7 @@
 * **Montufar:** Ejercicios 13 y 18
 
 ### 3. Combinados y Desafíos
+* **Giancarlo:** Ejercicios 24 y 25
 * **Andy:** Ejercicios 23 y 27
 * **Javier:** Ejercicios 28 y 29
 * **Mario:** Ejercicios 21 y 22
